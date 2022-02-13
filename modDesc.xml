@@ -18,7 +18,7 @@
 
 	<description>
         <en> <![CDATA[
-Multi silo with scale, pallet storage and pallet output. Capacity 2.000.000 liters. Price 110.000 €.
+Multi silo with scale, pallet storage, bale storage and output. Capacity 2.000.000 liters. Price 110.000 €.
 Farma 1000 silo extension with 2.000.000 liters capacity. Price 54.000 € (Without pallets).
 Pallet warehouse extension with 2.000.000 liters capacity. Price 64.000 € (Only for pallets).
 
@@ -36,7 +36,7 @@ Changelog V 1.0.1.0
         </en>
 		
         <de> <![CDATA[
-Multi Silo mit Waage, Palettenlager und Paletten-Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
+Multi Silo mit Waage, Palettenlager, Ballenlager und Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
 Farma 1000 Silo Erweiterung mit 2.000.000 Liter Kapazität. Preis 54.000 € (Ohne Paletten).
 Palettenlager Erweiterung mit 2.000.000 Liter Kapazität. Preis 64.000 € (Nur für Paletten).
 
@@ -54,7 +54,7 @@ Changelog V 1.0.1.0
         </de>
 		
         <fr> <![CDATA[
-Multi silo avec balance, stockage de palettes et sortie de palettes. Capacité de 2.000.000 litres. Prix 110.000 €.
+Multi silo avec balance, stockage de palettes, stockage de balles et distribution. Capacité de 2.000.000 litres. Prix 110.000 €.
 Farma 1000 Silo extension avec capacité de 2.000.000 litres. Prix 54.000 € (sans palettes).
 Extension de l'entrepôt de palettes avec une capacité de 2.000.000 litres. Prix 64.000 € (uniquement pour les palettes).
 
@@ -72,7 +72,7 @@ Changelog V 1.0.1.0
         </fr>
 		
         <it> <![CDATA[
-Multi silo con bilancia, stoccaggio di pallet e uscita di pallet. Capacità 2.000.000 litri. Prezzo 110.000 €.
+Multi silo con bilancia, stoccaggio di pallet, stoccaggio di balle e uscita. Capacità 2.000.000 litri. Prezzo € 110.000.
 Estensione silo Farma 1000 con 2.000.000 di litri di capacità. Prezzo 54.000 € (senza pallet).
 Estensione di stoccaggio di pallet con capacità di 2.000.000 litri. Prezzo 64.000 € (solo per i pallet).
 
