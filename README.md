@@ -1,4 +1,4 @@
-![This is an image](https://github.com/Memdor/FS22_Lager_MD/blob/main/store.png?raw=true)
+![FS22_Lager_MD](https://github.com/Memdor/FS22_Lager_MD/blob/main/icon.jpg?raw=true)
 
 [Neuste Version](https://github.com/Memdor/FS22_Lager_MD/releases/tag/1.0.1.0)
 
