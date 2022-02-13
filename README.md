@@ -5,8 +5,7 @@
 
 ![FS22_Lager_MD](https://github.com/Memdor/FS22_Lager_MD/blob/main/icon.jpg?raw=true)
 
-`git add`
-`git status`
+## Weitere Mods [MEMDOR](https://github.com/Memdor?tab=repositories)
 
 Multi Silo mit Waage, Palettenlager, Ballenlager und Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
 Farma 1000 Silo Erweiterung mit 2.000.000 Liter Kapazität. Preis 54.000 € (Ohne Paletten).
