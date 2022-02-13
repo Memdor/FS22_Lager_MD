@@ -1,3 +1,5 @@
+![This is an image](https://github.com/Memdor/FS22_Lager_MD/blob/main/store.dds)
+
 [Neuste Version](https://github.com/Memdor/FS22_Lager_MD/releases/tag/1.0.1.0)
 
 Multi Silo mit Waage, Palettenlager und Paletten-Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
