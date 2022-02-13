@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+
+    <author>MEMDOR</author>
+	
+    <contributors>
+        <contributor>Achimobil Script "aPalletSilo", "SpawnPalletsAtSiloEvent"</contributor>
+    </contributors>
+
+	<title>
+        <en>Multi Silo Pallet Storage</en>
+        <de>Multi Silo Palettenlager</de>
+        <fr>Stockage De Palettes Mlti-silos</fr>
+        <it>Stoccaggio Pallet Multi-silo</it>
+    </title>
+
+    <version>1.0.1.0</version>
+
+	<description>
+        <en> <![CDATA[
+Multi silo with scale, pallet storage and pallet output. Capacity 2.000.000 liters. Price 110.000 €.
+Farma 1000 silo extension with 2.000.000 liters capacity. Price 54.000 € (Without pallets).
+Pallet warehouse extension with 2.000.000 liters capacity. Price 64.000 € (Only for pallets).
+
+All standard pallets and fruit types from the categories: PRODUCT BULK LIQUID PIECE SPRAYER SPREADER SILAGETRAILER BALE can be stored here.
+
+Script "aPalletSilo", "SpawnPalletsAtSiloEvent" from Achimobil.
+
+Translation: English, German, French, Italian.
+
+Changelog V 1.0.1.0
+- fillTypeCategory "BALE" inserted
+- Round bales can now be stored
+		]]>
+        </en>
+		
+        <de> <![CDATA[
+Multi Silo mit Waage, Palettenlager und Paletten-Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
+Farma 1000 Silo Erweiterung mit 2.000.000 Liter Kapazität. Preis 54.000 € (Ohne Paletten).
+Palettenlager Erweiterung mit 2.000.000 Liter Kapazität. Preis 64.000 € (Nur für Paletten).
+
+Alle Standard Paletten und Fruchtsorten aus den Kategorien: PRODUCT BULK LIQUID PIECE SPRAYER SPREADER SILAGETRAILER BALE können hier eingelagert werden.
+
+Script "aPalletSilo", "SpawnPalletsAtSiloEvent" von Achimobil.
+
+Übersetzung: Englisch, Deutsch, Französische, Italienisch.
+
+Changelog V 1.0.1.0
+- fillTypeCategory "BALE" eingefügt
+- Rundballen können jetzt gelagert werden
+
+		]]>
+        </de>
+		
+        <fr> <![CDATA[
+Multi silo avec balance, stockage de palettes et sortie de palettes. Capacité de 2.000.000 litres. Prix 110.000 €.
+Farma 1000 Silo extension avec capacité de 2.000.000 litres. Prix 54.000 € (sans palettes).
+Extension de l'entrepôt de palettes avec une capacité de 2.000.000 litres. Prix 64.000 € (uniquement pour les palettes).
+
+Toutes les palettes et variétés de fruits standard des catégories : PRODUCT BULK LIQUID PIECE SPRAYER SPREADER SILAGETRAILER BALE peuvent être stockés ici.
+
+Script "aPalletSilo", "SpawnPalletsAtSiloEvent" par Achimobil.
+
+Traduction : anglais, allemand, français, italien.
+
+Changelog V 1.0.1.0
+- fillTypeCategory "BALE" inséré
+- Les balles rondes peuvent désormais être stockées
+
+		]]>
+        </fr>
+		
+        <it> <![CDATA[
+Multi silo con bilancia, stoccaggio di pallet e uscita di pallet. Capacità 2.000.000 litri. Prezzo 110.000 €.
+Estensione silo Farma 1000 con 2.000.000 di litri di capacità. Prezzo 54.000 € (senza pallet).
+Estensione di stoccaggio di pallet con capacità di 2.000.000 litri. Prezzo 64.000 € (solo per i pallet).
+
+Tutti i pallet standard e i tipi di frutta delle categorie: Il prodotto BULK LIQUID PIECE SPRAYER SPREADER SILAGETRAILER BALE può essere conservato qui.
+
+Script "aPalletSilo", "SpawnPalletsAtSiloEvent" di Achimobil.
+
+Traduzione: inglese, tedesco, francese, italiano.
+
+Changelog V 1.0.1.0
+- fillTypeCategory "BALE" aggiunto
+- Le balle rotonde possono ora essere immagazzinate
+
+		]]>
+        </it>
+    </description>
+
+	<multiplayer supported="true" />
+	
+	<iconFilename>icon.dds</iconFilename>
+	
+    <storeItems>
+        <storeItem  xmlFilename="storage/storage.xml"/>
+        <storeItem  xmlFilename="siloExtension/farma1000.xml"/>
+        <storeItem  xmlFilename="palletExtension/palletExtension.xml"/>
+    </storeItems>		
+
+	<fillTypes filename="fillTypes/fillTypes.xml" />
+
+	<extraSourceFiles>
+		<sourceFile filename="scripts/main.lua" />
+	</extraSourceFiles>
+	
+	<placeableTypes>
+		<type name="MultiSiloWithPallet" parent="silo" filename="$dataS/scripts/placeables/Placeable.lua">
+			<specialization name="aPalletSilo"/>
+			<specialization name="weighingStation"/>
+		</type>
+	</placeableTypes>	
+
+	<brands>
+        <brand name="MEMDOR" title="Memdor" image="brand.icon.dds"/>
+    </brands>
+
+	<l10n>
+        <text name="storeItem_MultiSiloWithPallet">
+			<en>Multi Silo Pallet Storage</en>
+			<de>Multi Silo Palettenlager</de>
+			<fr>Stockage De Palettes Mlti-silos</fr>
+			<it>Stoccaggio Pallet Multi-silo</it>
+        </text>
+        <text name="function_MultiSiloWithPallet">
+            <en>Multi silo with pallet storage and pallet output. Capacity 2.000.000 liters.</en>
+            <de>Multi Silo mit Palettenlager und Palettenausgabe. Kapazität 2.000.000 Liter.</de>
+            <fr>Multi silo avec stockage et distribution de palettes. Capacité de 2.000.000 litres.</fr>
+            <it>Multi silo con stoccaggio di pallet e uscita di pallet. Capacità 2.000.000 litri.</it>
+        </text>
+        <text name="storeItem_siloExtensionFarma1000">
+            <en>Farma 1000 silo extension</en>
+            <de>Farma 1000 Silo Erweiterung</de>
+            <fr>Extension du silo Farma 1000</fr>
+            <it>Estensione Farma 1000 Silo</it>
+        </text>
+        <text name="function_siloExtensionFarma1000">
+            <en>Farma 1000 silo extension with 2,000,000 liters capacity.</en>
+            <de>Farma 1000 Silo Erweiterung mit 2.000.000 Liter Kapazität.</de>
+            <fr>Extension du silo Farma 1000 d'une capacité de 2.000.000 de litres.</fr>
+            <it>Estensione del silo Farma 1000 con 2.000.000 di litri di capacità.</it>
+        </text>
+        <text name="storeItem_palletSilo">
+            <en>Pallet warehouse extension</en>
+            <de>Palettenlager Erweiterung</de>
+            <fr>Extension de l'entrepôt de palettes</fr>
+            <it>Estensione del magazzino di pallet</it>
+        </text>
+        <text name="function_palletSilo">
+            <en>Pallet warehouse expansion with 2,000,000 liters capacity.</en>
+            <de>Palettenlager Erweiterung mit 2.000.000 Liter Kapazität.</de>
+            <fr>Extension de l'entrepôt de palettes avec une capacité de 2.000.000 de litres.</fr>
+            <it>Ampliamento del magazzino di pallet con capacità di 2.000.000 di litri.</it>
+        </text>
+		
+		<!-- by Achimobil Script "aPalletSilo", "SpawnPalletsAtSiloEvent" -->
+        <text name="ExtractPallets">
+            <en>Outsource</en>
+            <de>Auslagern</de>
+            <fr>Externaliser</fr>
+            <it>Esternalizzare</it>
+        </text>
+        <text name="ChooseWhatToPutOut">
+            <en>Choose material</en>
+            <de>Material wählen</de>
+            <fr>Choisir le matériau</fr>
+            <it>Seleziona il materiale</it>
+        </text>
+        <text name="ChooseAmountToPutOut">
+            <en>Choose amount to put out</en>
+            <de>Anzahl wählen</de>
+            <fr>Choisir le nombre</fr>
+            <it>Selezionare la quantità</it>
+        </text>
+        <text name="ChooseBaleType">
+            <en>Choose bale type</en>
+            <de>Ballen Typ wählen</de>
+            <fr>Choisir le type de balle</fr>
+            <it>Seleziona il tipo di balla</it>
+        </text>
+        <text name="BaleSiloItem">
+            <en>Bale</en>
+            <de>Ballen</de>
+            <fr>Balle</fr>
+            <it>Bale</it>
+        </text>
+        <!-- <text name="function_palletStorage"> -->
+            <!-- <en>Storage for pallets</en> -->
+            <!-- <de>Silolager für Paletten und Ballen</de> -->
+        <!-- </text> -->
+        <!-- <text name="smallPalletStorage"> -->
+            <!-- <en>Underground Pallettstorage</en> -->
+            <!-- <de>Unterirdisches Palettenlager</de> -->
+        <!-- </text> -->
+	</l10n>
+    
+</modDesc>
