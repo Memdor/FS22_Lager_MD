@@ -1,6 +1,7 @@
-![FS22_Lager_MD](https://github.com/Memdor/FS22_Lager_MD/blob/main/icon.jpg?raw=true)
-
 [Neuste Version](https://github.com/Memdor/FS22_Lager_MD/releases/tag/1.0.1.0)
+
+
+![FS22_Lager_MD](https://github.com/Memdor/FS22_Lager_MD/blob/main/icon.jpg?raw=true)
 
 Multi Silo mit Waage, Palettenlager und Paletten-Ausgabe. Kapazität 2.000.000 Liter. Preis 110.000 €.
 Farma 1000 Silo Erweiterung mit 2.000.000 Liter Kapazität. Preis 54.000 € (Ohne Paletten).
