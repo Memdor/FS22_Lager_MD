@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">	
+    
+	<fillTypeCategories> 
+        <fillTypeCategory name="BALE">ROUNDBALE ROUNDBALE_GRASS ROUNDBALE_DRYGRASS ROUNDBALE_COTTON ROUNDBALE_WOOD SQUAREBALE SQUAREBALE_GRASS SQUAREBALE_DRYGRASS SQUAREBALE_COTTON SQUAREBALE_WOOD SILAGE</fillTypeCategory>
+    </fillTypeCategories>
+	
+</map>
