@@ -31,6 +31,7 @@ Translation: English, German, French, Italian.
 Changelog V 1.0.1.0
 - fillTypeCategory "BALE" inserted
 - Round bales can now be stored
+- Farma 1000 silo extension now with 2.000.000 liters capacity
 		]]>
         </en>
 		
@@ -48,7 +49,7 @@ Script "aPalletSilo", "SpawnPalletsAtSiloEvent" von Achimobil.
 Changelog V 1.0.1.0
 - fillTypeCategory "BALE" eingefügt
 - Rundballen können jetzt gelagert werden
-
+- Farma 1000 Silo Erweiterung jetzt mit 2.000.000 Liter Kapazität
 		]]>
         </de>
 		
@@ -66,7 +67,7 @@ Traduction : anglais, allemand, français, italien.
 Changelog V 1.0.1.0
 - fillTypeCategory "BALE" inséré
 - Les balles rondes peuvent désormais être stockées
-
+- Farma 1000 silo extension now with 2.000.000 liters capacity
 		]]>
         </fr>
 		
@@ -84,7 +85,7 @@ Traduzione: inglese, tedesco, francese, italiano.
 Changelog V 1.0.1.0
 - fillTypeCategory "BALE" aggiunto
 - Le balle rotonde possono ora essere immagazzinate
-
+- Farma 1000 silo extension now with 2.000.000 liters capacity
 		]]>
         </it>
     </description>
